@@ -1,6 +1,6 @@
 # Prettier iTerm2
 
-**NOTE: This is a fork, you probably want the original one**
+**NOTE: This is a fork, you probably want [the original one](https://github.com/gnachman/iTerm2)**
 
 ## Changes
 
@@ -8,6 +8,9 @@
 - Adds some padding around the content
 
 ## Known issues
+
+- Shows a tiny grey bar on top, visible against dark backgrounds
+- Doesn't work well with transparent windows
 
 This was hacked together in a couple minutes, there are likely a bunch of problems with this so proceed with caution.. 
 
