@@ -1,3 +1,20 @@
+# Prettier iTerm2
+
+**NOTE: This is a fork, you probably want the original one**
+
+## Changes
+
+- Removes title bar
+- Adds some padding around the content
+
+## Known issues
+
+This was hacked together in a couple minutes, there are likely a bunch of problems with this so proceed with caution.. 
+
+![Screenshot](screenshot.png)
+
+_original description below_
+
 This site hosts code for <a href="https://iterm2.com">iTerm2</a>.
 
 [![Build Status](https://travis-ci.org/gnachman/iTerm2.svg?branch=master)](https://travis-ci.org/gnachman/iTerm2)
