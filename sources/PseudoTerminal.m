@@ -543,6 +543,18 @@ static NSString* TERMINAL_ARRANGEMENT_HIDING_TOOLBELT_SHOULD_RESIZE_WINDOW = @"H
         // monitor.
         [myWindow setFrame:initialFrame display:NO];
     }
+    
+    // Make things nice and clean
+    [myWindow setOpaque:NO];
+    [myWindow setStyleMask:NSResizableWindowMask | NSTitledWindowMask | NSFullSizeContentViewWindowMask];
+    [myWindow setMovableByWindowBackground:YES];
+    [myWindow setTitlebarAppearsTransparent:YES];
+    [myWindow setTitleVisibility:NSWindowTitleHidden];
+    [myWindow setShowsToolbarButton:NO];
+    [myWindow standardWindowButton:NSWindowFullScreenButton].hidden = YES;
+    [myWindow standardWindowButton:NSWindowMiniaturizeButton].hidden = YES;
+    [myWindow standardWindowButton:NSWindowCloseButton].hidden = YES;
+    [myWindow standardWindowButton:NSWindowZoomButton].hidden = YES;
 
     [myWindow setHasShadow:(windowType == WINDOW_TYPE_NORMAL)];
 
