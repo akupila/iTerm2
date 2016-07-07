@@ -2,6 +2,8 @@
 
 **NOTE: This is a fork, you probably want [the original one](https://github.com/gnachman/iTerm2)**
 
+Inspired by [hyperterm](https://github.com/zeit/hyperterm) I set out to see if iTerm2 could be tweaked to remove the title bar. This is very much a proof of concept done in couple minutes and probably has a bunch of issues so proceed with caution..
+
 ## Changes
 
 - Removes title bar
@@ -10,9 +12,8 @@
 ## Known issues
 
 - Shows a tiny grey bar on top, visible against dark backgrounds
-- Doesn't work well with transparent windows
-
-This was hacked together in a couple minutes, there are likely a bunch of problems with this so proceed with caution.. 
+- Doesn't work with transparent windows
+- Going fullscreen and back restores (a weird looking) titlebar
 
 ![Screenshot](screenshot.png)
 
